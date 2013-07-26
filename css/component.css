@@ -1,0 +1,289 @@
+
+
+
+
+.og-grid {
+	list-style: none;
+	padding: 80px 0 100px 0;
+	margin: 0 auto;
+	text-align: center;
+	width: 100%;
+}
+
+.og-grid li {
+	display: inline-block;
+	margin: 17px 7px 0 7px;
+	vertical-align: top;
+	height: 295px;
+
+}
+
+
+
+.og-grid li > a,
+.og-grid li > a img {
+	border: none;
+	outline: none;
+	display: block;
+	position: relative;
+font-weight:700;width:100%;heigh:auto;
+}
+
+
+
+.og-grid li.og-expanded > a::after {
+	top: auto;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+	border-bottom-color: #3a3a3a;
+	border-width: 15px;
+	left: 50%;
+	margin: -8px 0 0 -15px;
+}
+
+.og-expander {
+	position: absolute;
+	background: #3a3a3a;
+	top: auto;
+	left: 0;
+	width: 100%;
+	margin-top: 20px;
+	text-align: left;
+	height: 0;
+	overflow: hidden;
+
+}
+
+.og-expander-inner {
+	padding: 0 ;
+	height: ;
+max-width:960px;
+
+margin:80px auto 0 auto;
+color:#fff;
+
+}
+
+.og-close {border:#fff 1px solid;
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	top: 20px;
+	right: 20px;
+	cursor: pointer;
+ -webkit-transition: all .3s ease-out;
+  -moz-transition: all .3s ease-out;
+  -ms-transition: all .3s ease-out; 
+  -o-transition:  all .3s ease-out;  
+  transition: all .3s ease-out;
+}
+
+.og-close::before,
+.og-close::after {
+	content: '';
+	position: absolute;
+	width: 100%;
+	top: 50%;
+	height: 1px;
+	background: #fff;
+	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	transform: rotate(45deg);
+ -webkit-transition: all .3s ease-out;
+  -moz-transition: all .3s ease-out;
+  -ms-transition: all .3s ease-out; 
+  -o-transition:  all .3s ease-out;  
+  transition: all .3s ease-out;
+}
+
+.og-close::after {
+	-webkit-transform: rotate(-45deg);
+	-moz-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+}
+
+.og-close:hover::before,
+.og-close:hover::after {
+	background: #31ad91;
+}
+
+.og-close:hover{
+	border: #31ad91 1px solid;
+}
+
+.og-fullimg{
+	width: 60%;
+	float: left;
+	height: 100%;
+	overflow: hidden;
+	position: relative;
+}
+
+
+
+.og-details {
+	width: 38%;
+margin-left:2%;
+	float: left;
+	height: 100%;
+	overflow: hidden;
+	position: relative;
+}
+
+
+
+.og-details {
+	padding: 0 ;
+}
+
+.og-fullimg {
+text-align:center;
+}
+
+.og-fullimg img {
+	display: inline-block;
+	max-height: 100%;
+max-width:100%;
+}
+
+.og-details h3 {text-transform:uppercase;
+	font-weight: 700;
+	font-size: 24px;
+	
+	margin-bottom: 10px;
+}
+
+.og-details p {
+	margin-bottom:60px;
+	font-size: 16px;
+	font-family:arial;
+	color: #fff;
+line-height:1.6;
+}
+
+.og-details a {font-family:lato;
+	font-weight: 400;
+	font-size: 24px;
+	color: #fff;
+	text-transform: uppercase;
+	line-height:1.2;
+	padding: 18px 20px;
+	border: 1px solid #fff;
+	display: inline-block;
+	margin:  0;
+	outline: none;
+}
+
+.og-details a::before {
+	
+	display: inline-block;
+	margin-right: 10px;
+}
+
+.og-details a:hover {
+	border-color: #31ad91;
+	color: #31ad91;
+}
+
+.og-loading {
+	display:none;
+}
+
+@-webkit-keyframes loader {
+	0% { background: #ddd; }
+	33% { background: #ccc; box-shadow: 0 0 1px #ccc, 15px 30px 1px #ccc, -15px 30px 1px #ddd; }
+	66% { background: #ccc; box-shadow: 0 0 1px #ccc, 15px 30px 1px #ddd, -15px 30px 1px #ccc; }
+}
+
+@-moz-keyframes loader {
+	0% { background: #ddd; }
+	33% { background: #ccc; box-shadow: 0 0 1px #ccc, 15px 30px 1px #ccc, -15px 30px 1px #ddd; }
+	66% { background: #ccc; box-shadow: 0 0 1px #ccc, 15px 30px 1px #ddd, -15px 30px 1px #ccc; }
+}
+
+@keyframes loader {
+	0% { background: #ddd; }
+	33% { background: #ccc; box-shadow: 0 0 1px #ccc, 15px 30px 1px #ccc, -15px 30px 1px #ddd; }
+	66% { background: #ccc; box-shadow: 0 0 1px #ccc, 15px 30px 1px #ddd, -15px 30px 1px #ccc; }
+}
+
+@media screen and (max-width: 1000px) {
+
+
+.og-grid {
+padding: 20px 0 20px 0;	
+}
+
+
+.og-fullimg img {
+margin-left:20px;
+}
+
+.og-details p {
+margin-right:20px;
+}
+
+
+
+}
+
+
+@media screen and (max-width: 980px) {
+
+
+.og-grid {
+padding: 20px 0 20px 0;	
+}
+
+}
+
+
+@media screen and (max-width: 830px) {
+.og-grid {
+
+}
+
+	
+	.og-expander a { font-size: 18px; }
+
+}
+
+
+@media screen and (max-width: 700px) {
+
+	.og-fullimg { display: none; }
+	.og-details { float: none; width: auto;margin:0 20px;text-align:center; }
+	
+}
+
+
+@media screen and (max-width: 400px) {
+
+.og-expander-inner {
+	padding: 0 ;
+	height: ;
+max-width:960px;
+
+margin:40px auto 0 auto;
+color:#fff;
+
+}
+
+}
+
+
+
+@media screen and (max-width: 300px) {
+
+
+
+.hideonmobileportfolio {
+display:none;
+}
+
+}
+
