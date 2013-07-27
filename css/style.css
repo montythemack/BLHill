@@ -38,9 +38,9 @@ img, embed, object, video, iframe {
 /********* reset *********/
 
 a {
-  color: #31ad91;
+  color: #31AAAD;
   text-decoration: none;
- -webkit-transition: all .3s ease-out;
+  -webkit-transition: all .3s ease-out;
   -moz-transition: all .3s ease-out;
   -ms-transition: all .3s ease-out; 
   -o-transition:  all .3s ease-out;  
@@ -137,7 +137,7 @@ line-height:1.6;
 color:#555555;
 font-size:13px;
 font-family:"arial",  san-serif;
-
+/* padding-top:80px; */
 
 }
 
@@ -210,7 +210,7 @@ margin-bottom:21px;
 }
 
 .underslider a.button1:hover{
-color:#31ad91;
+color:#31AAAD;
 }
 
 
@@ -303,7 +303,7 @@ border:1px solid #fff;
 	opacity: 0;
 }
 
-.ch-item:hover .ch-info-back {border:1px solid #31ad91;
+.ch-item:hover .ch-info-back {border:1px solid #31AAAD;
 	-webkit-transform: rotate3d(1,0,0,0deg);
 	-moz-transform: rotate3d(1,0,0,0deg);
 	-o-transform: rotate3d(1,0,0,0deg);
@@ -352,7 +352,7 @@ z-index:0;
 
 
 .aboutleft1{
-background:#cbc6c2 url(../images/aboutleft1.png) right top repeat-y;
+background:#cbc6c2  right top repeat-y;
 width:100%;
 height:300px;
 }
@@ -378,7 +378,7 @@ margin-right:135px;
 
 
 .aboutleft2{
-background:#31ad91 url(../images/aboutleft2.png) right bottom repeat-x;
+background:#31AAAD right bottom repeat-x;
 width:100%;
 height:300px;
 }
@@ -450,7 +450,7 @@ background: url(../images/twittericon.png) center center no-repeat;
 }
 
 .teamcolumn a.twitter:hover{
-background:#31ad91 url(../images/twittericon.png) center center no-repeat;
+background:#31AAAD url(../images/twittericon.png) center center no-repeat;
 }
 .teamcolumn a.facebook:link, .teamcolumn a.facebook:visited{
 float:right;
@@ -461,7 +461,7 @@ background:url(../images/facebookicon.png) center center no-repeat;
 }
 
 .teamcolumn a.facebook:hover{
-background:#31ad91 url(../images/facebookicon.png) center center no-repeat;
+background:#31AAAD url(../images/facebookicon.png) center center no-repeat;
 }
 
 .teamcolumn a.googleplus:link, .teamcolumn a.googleplus:visited{
@@ -473,7 +473,7 @@ background:url(../images/googleplusicon.png) center center no-repeat;
 }
 
 .teamcolumn a.googleplus:hover{
-background:#31ad91 url(../images/googleplusicon.png) center center no-repeat;
+background:#31AAAD url(../images/googleplusicon.png) center center no-repeat;
 }
 
 .teamcolumn a.mail:link, .teamcolumn a.mail:visited{
@@ -485,10 +485,10 @@ background:url(../images/mailicon.png) center center no-repeat;
 }
 
 .teamcolumn a.mail:hover{
-background:#31ad91 url(../images/mailicon.png) center center no-repeat;
+background:#31AAAD url(../images/mailicon.png) center center no-repeat;
 }
 .teamcolumndown{
-background:#31ad91;
+background:#31AAAD;
 height:70px;
 float:left;
 width:100%;
@@ -553,7 +553,7 @@ margin-bottom:80px;
 .misionpartright{
 width:50%;
 float:left;
-background:#31ad91;
+background:#31AAAD;
 }
 
 .misionpartrightinner{
@@ -722,7 +722,7 @@ background: url(../images/scroll1.png) top center no-repeat;
 }
 
 .scroll1:hover{
-border:#31ad91 1px solid;
+border:#31AAAD 1px solid;
 background: url(../images/scroll1.png) bottom center no-repeat;
 }
 
@@ -745,7 +745,7 @@ background: url(../images/scroll2.png) bottom center no-repeat;
 
 
 .scroll2:hover{
-border:#31ad91 1px solid;
+border:#31AAAD 1px solid;
 background: url(../images/scroll2.png) top center no-repeat;
 }
 
@@ -773,7 +773,7 @@ background: url(../images/scroll1.png) top center no-repeat;
 }
 
 .scroll3:hover{
-border:#31ad91 1px solid;
+border:#31AAAD 1px solid;
 background: url(../images/scroll1.png) bottom center no-repeat;
 }
 
@@ -796,7 +796,7 @@ background: url(../images/scroll2.png) bottom center no-repeat;
 
 
 .scroll4:hover{
-border:#31ad91 1px solid;
+border:#31AAAD 1px solid;
 background: url(../images/scroll2.png) top center no-repeat;
 }
 
@@ -853,7 +853,7 @@ font-weight:700;
 
 
 .servicesright2{
-background:#31ad91 url(../images/aboutleft2.png) left bottom repeat-x;
+background:#31AAAD  left bottom repeat-x;
 width:100%;
 height:300px;
 }
@@ -922,7 +922,7 @@ margin-bottom:20px;
 }
 
 .serviceiconsinner:hover{
-background:#31ad91;
+background:#31AAAD;
 }
 
 .serviceiconsinner h4{
@@ -1014,7 +1014,7 @@ margin-bottom:80px;
 .blogpartright{
 width:50%;
 float:left;
-background:#31ad91;
+background:#31AAAD;
 }
 
 .blogpartrightinner{
@@ -1077,7 +1077,7 @@ margin-right:130px;
 
 
 .contactleft2{
-background:#31ad91 url(../images/aboutleft2.png) right bottom repeat-x;
+background:#31AAAD right bottom repeat-x;
 width:100%;
 height:300px;
 }
@@ -1111,7 +1111,7 @@ margin-left:40px;
 .icons a:hover{
 width:100px;
 height:100px;
-background:#31ad91;
+background:#31AAAD;
 float:left;
 margin-right:10px;
 }
@@ -1127,7 +1127,7 @@ margin-right:10px;
 background:#1a1a1a url(../images/twittericonbig.png) center center no-repeat;
 }
 .icons .twittericon:hover{
-background:#31ad91 url(../images/twittericonbig.png) center center no-repeat;
+background:#4099FF url(../images/twittericonbig.png) center center no-repeat;
 }
 
 .icons .facebookicon{margin-bottom:10px;
@@ -1138,7 +1138,7 @@ margin-right:10px;
 background:#1a1a1a url(../images/facebookiconbig.png) center center no-repeat;
 }
 .icons .facebookicon:hover{
-background:#31ad91 url(../images/facebookiconbig.png) center center no-repeat;
+background:#3B5998 url(../images/facebookiconbig.png) center center no-repeat;
 }
 .icons .googleplusicon{margin-bottom:10px;
 width:100px;
@@ -1148,7 +1148,7 @@ margin-right:10px;
 background:#1a1a1a url(../images/googleplusiconbig.png) center center no-repeat;
 }
 .icons .googleplusicon:hover{
-background:#31ad91 url(../images/googleplusiconbig.png) center center no-repeat;
+background:#F90101 url(../images/googleplusiconbig.png) center center no-repeat;
 }
 
 .icons .linkedinicon{margin-bottom:10px;
@@ -1159,7 +1159,7 @@ margin-right:10px;
 background:#1a1a1a url(../images/linkediniconbig.png) center center no-repeat;
 }
 .icons .linkedinicon:hover{
-background:#31ad91 url(../images/linkediniconbig.png) center center no-repeat;
+background:#4875B4 url(../images/linkediniconbig.png) center center no-repeat;
 }
 
 
@@ -1175,7 +1175,7 @@ background:#31ad91 url(../images/linkediniconbig.png) center center no-repeat;
 
 
 .mapwrapper{
-background:#31ad91;
+background:#31AAAD;
 width:100%;
 height:auto;
 padding-bottom:0px;
@@ -1428,7 +1428,7 @@ text-transform:uppercase;
 font-weight:700;
 }
 .bloghomerightimgwrapperleft a:hover{
-color:#31ad91;
+color:#31AAAD;
 }
 
 .blogdatehome{
@@ -1477,8 +1477,8 @@ color:#fff;
 }
 
 .visitourblogbutton a:hover{
-border:#31ad91 solid 1px;
-color:#31ad91;
+border:#31AAAD solid 1px;
+color:#31AAAD;
 }
 
 
@@ -1581,7 +1581,7 @@ font-size:18px;
 text-transform:uppercase;
 text-align:center;
 display:inline-block;
-background:#31ad91;
+background:#31AAAD;
 margin-right:10px;
 margin-top:18px;
 margin-bottom:21px;
@@ -1618,7 +1618,7 @@ margin-top:32px;
 
 .blogpost blockquote{
 padding:20px 30px;
-border-left:3px solid #31ad91;
+border-left:3px solid #31AAAD;
 margin-top:21px;
 margin-bottom:21px;
 text-transform:uppercase;
@@ -1662,8 +1662,8 @@ border:#353535 1px solid;
 }
 
 a.commentreply:hover{
-color:#31ad91;
-border:#31ad91 1px solid;
+color:#31AAAD;
+border:#31AAAD 1px solid;
 }
 
 
@@ -1734,7 +1734,7 @@ background: url(../images/nextslider.png) center center no-repeat;
 .blogdateslider{
 width:25%;
 padding:43px 0;
-background:#31ad91;
+background:#31AAAD;
 float:left;
 text-align:center;
 margin-bottom:0;
@@ -1774,7 +1774,7 @@ text-transform:uppercase;
 display:block;
 }
 .blogbuttonmore a:hover{
-color:#31ad91;
+color:#31AAAD;
 }
 
 
@@ -1805,7 +1805,7 @@ max-width:290px;
 .bottomblog{
 width:100%;
 height:120px;
-background:#31ad91;
+background:#31AAAD;
 }
 .bottomblog a:link, .bottomblog a:visited{
 border:#353535 1px solid;
@@ -1831,20 +1831,20 @@ margin-bottom:84px;
 
 
 .blogpostone .comment1 input{
-background:#31ad91;
+background:#31AAAD;
 }
 
 .blogpostone .comment2 input{
-background:#31ad91;
+background:#31AAAD;
 }
 
 .blogpostone .textarea textarea{
-background:#31ad91;
+background:#31AAAD;
 }
 
 .blogpostone .buttoncontact input{
-border:#31ad91 2px solid;
-color:#31ad91;
+border:#31AAAD 2px solid;
+color:#31AAAD;
   -webkit-transition: height 0.35s ease;
      -moz-transition: height 0.35s ease;
        -o-transition: height 0.35s ease;
